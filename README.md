@@ -5,7 +5,7 @@ Art project with information about and for Cybera members
 ## Potential Materials and Tools
 
 * [Birch Plywood](https://www.windsorplywood.com/product/birch-import-plywood/)
-* [NeoPixels](https://learn.adafruit.com/adafruit-neopixel-uberguide)
+* [NeoPixels](https://www.amazon.ca/gp/product/B01DC0J3UM/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&th=10) [Guide](https://learn.adafruit.com/adafruit-neopixel-uberguide)
 * [Raspberry Pi Pico W](https://www.pishop.ca/product/raspberry-pi-pico-w/)
 * [CircuitPython](https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/neopixel-leds)
 
@@ -23,6 +23,7 @@ Art project with information about and for Cybera members
 * [Another Instructables Project](https://www.instructables.com/Google-Maps-for-CNC-Projects/)
 
 ---
+
 ## Other
 
 * [Pico Web Control](https://github.com/justbuchanan/pico_web_control)
