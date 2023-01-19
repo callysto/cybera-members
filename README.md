@@ -7,7 +7,7 @@ Art project with information about and for Cybera members
 * [Birch Plywood](https://www.windsorplywood.com/product/birch-import-plywood/)
 * [NeoPixels](https://www.amazon.ca/gp/product/B01DC0J3UM/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&th=10) [Guide](https://learn.adafruit.com/adafruit-neopixel-uberguide)
 * [Raspberry Pi Pico W](https://www.pishop.ca/product/raspberry-pi-pico-w/)
-  * [Pi Pico W micropython](https://micropython.org/download/rp2-pico-w/)
+  * [Pico W micropython](https://micropython.org/download/rp2-pico-w/)
 * [CircuitPython](https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/neopixel-leds)
 
 ---
