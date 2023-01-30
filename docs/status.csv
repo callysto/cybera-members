@@ -1,0 +1,29 @@
+Cities,LED,Color
+"['Lethbridge', 'Taber']",0,white
+['Fort Macleod'],1,white
+"['Medicine Hat', 'Dunmore']",2,white
+['Brooks'],3,white
+['High River'],4,white
+['Calgary'],5,white
+"['Canmore', 'Morley', 'Banff']",6,white
+['Hanna'],7,white
+['Innisfail'],8,white
+['Red Deer'],9,white
+['Stettler'],10,white
+['Rocky Mountain House'],11,white
+"['Lacombe', 'Ponoka']",12,white
+['Wainwright'],13,white
+"['Camrose', 'Wetaskiwin']",14,white
+['Vermilion'],15,white
+"['Edmonton', 'Leduc', 'Nisku', 'Spruce Grove', 'Stony Plain', 'St. Albert', 'Morinville']",16,white
+['Edson'],17,white
+['Barrhead'],18,white
+['Whitecourt'],19,white
+['Bonnyville'],20,white
+['Athabasca'],21,white
+"['Lac La Biche', 'Elk Point']",22,white
+['Grande Prairie'],23,white
+"['High Prairie', 'Grouard', 'Red Earth Creek']",24,white
+"['Peace River', 'Grimshaw']",25,white
+['Fort McMurray'],26,white
+['Fort Vermilion'],27,white
