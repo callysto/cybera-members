@@ -29,6 +29,11 @@ else:
 
 
 # try to get cybera.py from online, otherwise run local version
-
+try:
+    r = requests.get('https://callysto.github.io/cybera-members/cybera.py')
+    with open('cybera.py', 'w') as f:
+        f.write(r.text)
+except:
+    pass
 import cybera
 cybera
