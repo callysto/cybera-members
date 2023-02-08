@@ -22,6 +22,8 @@ while wait > 0:
 # Handle connection error
 if wlan.status() != 3:
     raise RuntimeError('WiFi connection failed')
+    import cybera
+    cybera
 else:
     ip = wlan.ifconfig()[0]
     print('IP: ', ip)
