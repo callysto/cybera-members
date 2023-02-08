@@ -6,7 +6,7 @@ import urequests as requests
 led = Pin("LED", Pin.OUT)
 led.on()
 
-passwords = [['Comp Works','password']]
+passwords = [['SSID','password']]
 
 # connect the network
 wlan = network.WLAN(network.STA_IF)
