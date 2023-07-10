@@ -13,7 +13,7 @@ for ap in accessPoints:
 # set power mode to get WiFi power-saving off (if needed)
 nic.config(pm = 0xa11140)
 
-nic.connect('CyberaGuests', 'Seven-Sisters-Peak')
+nic.connect('SSID', 'password')
 
 '''
 status codes
