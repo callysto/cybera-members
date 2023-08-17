@@ -26,13 +26,22 @@ try:
 
     for line in status[1:]: # skip header
         values = line.split(',')
-        try:
+        if len(values) > 1:
             leds[int(values[led_index])] = (int(values[red_index]), int(values[green_index]), int(values[blue_index]))
-        except:
-            pass # in case there's a blank line
-except:
-    for n in range(28):
-        leds[n] = (200,200,200)
+except: # if we can't the the csv file then twinkle
+    from random import randint
+    from time import sleep
+    lower_limit = 50
+    upper_limit = 200
+    while True:
+        for n in range(28):
+            leds[n] = (randint(lower_limit, upper_limit), randint(lower_limit, upper_limit), randint(lower_limit, upper_limit))
+        n_pixels = len(leds)
+        np = NeoPixel(Pin(0, Pin.OUT), n_pixels)
+        for i in range(n_pixels):
+            np[i] = leds[i]
+        np.write()
+        sleep(0.4)
 
 n_pixels = len(leds)
 np = NeoPixel(Pin(0, Pin.OUT), n_pixels)
