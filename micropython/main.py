@@ -40,7 +40,8 @@ except:
 
 # try to get cybera.py from online, otherwise run local version
 try:
-    r = requests.get('https://callysto.github.io/cybera-members/cybera.py')
+    #r = requests.get('https://callysto.github.io/cybera-members/cybera.py') # from GitHub pages
+    r = requests.get('https://raw.githubusercontent.com/callysto/cybera-members/main/docs/cybera.py') # from GitHub repo
     with open('cybera.py', 'w') as f:
         f.write(r.text)
 except:

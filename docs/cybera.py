@@ -9,7 +9,8 @@ from neopixel import NeoPixel
 leds = {}
 # get online file, add a try except here with default values for neopixel colors
 try:
-    r = requests.get('https://callysto.github.io/cybera-members/status.csv')
+    #r = requests.get('https://callysto.github.io/cybera-members/status.csv') # from GitHub pages
+    r = requests.get('https://raw.githubusercontent.com/callysto/cybera-members/main/docs/status.csv') # from GitHub repo
     status = r.text.split('\n')
     header = status[0]
     led_index, red_index, green_index, blue_index = 1, 3, 4, 5
